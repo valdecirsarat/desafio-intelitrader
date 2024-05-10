@@ -1,5 +1,3 @@
-package desafio;
-
 public class MensagemSecreta {
 	
 	public static void main(String[] args) {
