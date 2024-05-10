@@ -85,7 +85,7 @@ public class LivroDeOfertas {
 		LivroDeOfertas livroDeOfertas = new LivroDeOfertas();
 
 		try {
-			System.out.println("Notificação: ");		
+			System.out.println("Notificacao: ");		
 			int notificacao = sc.nextInt();
 			livroDeOfertas.livros = new LivroDeOfertas[notificacao];
 			
@@ -106,13 +106,13 @@ public class LivroDeOfertas {
 							}
 					// update
 						case 1:{
-							System.out.println("update");
+							//System.out.println("update");
 							livroDeOfertas.update(posicao,valor, quantidade);
 							break;
 							}
 					//delete
 						case 2:{
-							System.out.println("delete");
+							//System.out.println("delete");
 							livroDeOfertas.delete(posicao);
 							break;
 						}
