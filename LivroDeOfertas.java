@@ -129,7 +129,7 @@ public class LivroDeOfertas {
 			}
 			
 		}catch (InputMismatchException e) {
-			//verificando o erro que ocasionava na utlização do scanner
+			//verificando o erro que ocasionava na utlizacao do scanner
 			System.out.print(e.getMessage());
 		}
 		
